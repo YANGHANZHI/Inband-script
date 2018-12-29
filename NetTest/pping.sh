@@ -4,7 +4,7 @@
 # 
 # Copyright (c) 2010-2013 School of Computer, NUDT
 # Written by Hongjia Cao, hjcao@nudt.edu.cn
-#
+
 ulimit -SHn 1000000
 
 sysctl -w net.core.rmem_max=67108864 &> /dev/null
